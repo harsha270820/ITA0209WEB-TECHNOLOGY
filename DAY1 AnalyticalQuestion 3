@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email login</title>
+<head>
+<body>
+<h3>LOGIN INTO THE EMAIL<h3>
+<hr>
+<table>
+<tr>
+<td>username:</td>
+<td><input type="text" name="uname" required></td>
+</tr>
+<tr>
+<td>password:</td>
+<td><input type="text" name="pword" required></td>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+</tr>
+</body>
+</html>
