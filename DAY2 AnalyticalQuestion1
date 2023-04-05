@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+
+  <h1>WELCOME AMIGOS FOR LEARNING PLATFORM</h1>
+  <hr>
+  <p>you can experience the real word examples in this learning platform .</p>
+  <a href=file:///C:/Users/narah/JavaLab/mukesh.html>click on these click</a>
+  <script>
+    alert("server response too slow");
+  </script>
+
+</body>
+</html>
