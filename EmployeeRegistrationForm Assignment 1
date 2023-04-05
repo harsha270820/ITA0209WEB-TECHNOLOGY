@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Registration Form</title>
+</head>
+<body>
+	<h2>Employee Registration Form</h2>
+      <hr>
+
+		<table>
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="fname" required></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="lname" required></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email" required></td>
+			</tr>
+			<tr>
+				<td>Phone:</td>
+				<td><input type="text" name="phone" required></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea name="address" required></textarea></td>
+			</tr>
+			<tr>
+				<td>Department:</td>
+				<td><select name="department" required>
+						<option value="">--Select Department--</option>
+						<option value="IT">IT</option>
+						<option value="HR">HR</option>
+						<option value="Marketing">Marketing</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Profile Image:</td>
+				<td><input type="file" name="profile_image"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+
+      <hr>
+
+	
+	<p><a href="view_employees.php">View all employees</a></p>
+
+</body>
+</html>
+
